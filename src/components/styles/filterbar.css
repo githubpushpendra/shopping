@@ -1,0 +1,29 @@
+
+.filterbar {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+.f-head {
+  left: auto;
+}
+
+.f-button {
+  position: absolute;
+  left: 500px;
+}
+
+.fb-detail{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.fb-dropdown {
+  position: absolute;
+  right: 80px;
+}

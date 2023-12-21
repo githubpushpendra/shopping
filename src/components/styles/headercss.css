@@ -1,0 +1,150 @@
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  margin-top: -8px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+.header-bar {
+  height: 25px;
+  width: 100%;
+  margin: auto;
+  background-color: #000;
+  color: red;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-main {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  margin: auto;
+}
+
+.wlogo {
+  display: flex;
+  height: 65px;
+  width: 40%;
+  justify-content: flex-start;
+  padding: 18px;
+}
+
+.tlogo {
+  display: flex;
+  height: 65px;
+  margin: auto;
+  flex-grow: 1; /* Take remaining space */
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  height: 65px;
+  width: 40%;
+  justify-content: flex-end; /* Align list to the right */
+  align-items: center;
+  margin-right: 50px;
+}
+
+.list-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+}
+
+.hm-icon {
+  height: 20px;
+}
+
+
+
+/* =====================================================================
+                                Dropdown  
+======================================================================== */
+
+/* Style the dropdown button */
+.dropbtn {
+  background: none;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style the arrow icon */
+.arrow {
+  position: absolute;
+  right: 5px;
+  color: #000; /* Set arrow color */
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* ===============================================================
+                              Navbar
+================================================================== */
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.nv-list {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust the gap between items as needed */
+  margin: 15px;  
+  font-size: small;
+}
+
+.nv-list-item {
+  /* Add any specific styles for list items if needed */
+  cursor: pointer;
+  /* Additional styles... */
+}
+

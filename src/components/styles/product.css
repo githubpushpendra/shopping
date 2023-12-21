@@ -1,0 +1,12 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+  /* margin-left: auto; 
+  margin-right: 50px; */
+  width: 932px; 
+  
+  /* 111111222222222333333333 */
+  margin: auto;
+}
