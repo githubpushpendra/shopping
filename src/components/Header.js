@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className='header-bar'>
-      Lorem ipsum dolor
+      Limited time offer
       </div>
       <div className='header-main'> 
         <div className='wlogo'>
@@ -31,13 +31,14 @@ export default function Header() {
           />
         </div>
         <div className='tlogo'>
-          <Image
+          SHOPIE
+          {/* <Image
             src={logo}
             alt='Logo'
             width={100}
             height={50}
             priority
-          />
+          /> */}
         </div>
         <div className='list'>
           <ul className='list-list'>

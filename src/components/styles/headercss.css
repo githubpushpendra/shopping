@@ -47,6 +47,9 @@
   flex-grow: 1; /* Take remaining space */
   justify-content: center;
   align-items: center;
+  font-size: x-large;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .list {
